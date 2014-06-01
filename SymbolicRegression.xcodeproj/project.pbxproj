@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A48674B17BF862B001468B7 /* GFSFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A48674A17BF862B001468B7 /* GFSFunctions.m */; };
-		6A48674D17BF862B001468B7 /* GFSFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A48674A17BF862B001468B7 /* GFSFunctions.m */; };
-		6A48674E17BF8DB2001468B7 /* gpucalculate_kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4E34317BEB66E00D3A326 /* gpucalculate_kernel.cl */; };
-		6A592B2F17C124FD00B6A2C5 /* GFS.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F46B017BBEEA500209467 /* GFS.h */; };
-		6A592B3E17C1279900B6A2C5 /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3B17C1279900B6A2C5 /* DataSet.m */; };
-		6A592B3F17C1279900B6A2C5 /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3B17C1279900B6A2C5 /* DataSet.m */; };
-		6A592B4017C1279900B6A2C5 /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3B17C1279900B6A2C5 /* DataSet.m */; };
-		6A592B4117C1279900B6A2C5 /* GA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3D17C1279900B6A2C5 /* GA.m */; };
-		6A592B4217C1279900B6A2C5 /* GA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3D17C1279900B6A2C5 /* GA.m */; };
-		6A592B4317C1279900B6A2C5 /* GA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A592B3D17C1279900B6A2C5 /* GA.m */; };
 		6A5F467D17BBEE7500209467 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5F467C17BBEE7500209467 /* Cocoa.framework */; };
 		6A5F468717BBEE7500209467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F468517BBEE7500209467 /* InfoPlist.strings */; };
 		6A5F468917BBEE7500209467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F468817BBEE7500209467 /* main.m */; };
@@ -25,30 +15,19 @@
 		6A5F469317BBEE7500209467 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F469117BBEE7500209467 /* MainMenu.xib */; };
 		6A5F469517BBEE7500209467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F469417BBEE7500209467 /* Images.xcassets */; };
 		6A5F46B217BBEEA500209467 /* GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F46B117BBEEA500209467 /* GFS.m */; };
-		6A5F46C017BBEF0500209467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F46BE17BBEF0500209467 /* InfoPlist.strings */; };
-		6A5F46C217BBEF0500209467 /* GFSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F46C117BBEF0500209467 /* GFSTests.m */; };
-		6A69871D17BF7B9900BE4CC3 /* GPUScheduller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69871C17BF7B9900BE4CC3 /* GPUScheduller.m */; };
-		6A69871F17BF7B9900BE4CC3 /* GPUScheduller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69871C17BF7B9900BE4CC3 /* GPUScheduller.m */; };
-		6A69872217BF7C0500BE4CC3 /* SOMA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69872117BF7C0500BE4CC3 /* SOMA.m */; };
-		6A69872417BF7C0500BE4CC3 /* SOMA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69872117BF7C0500BE4CC3 /* SOMA.m */; };
-		6A80D0E617BE3830005A464D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A80D0E517BE3830005A464D /* SenTestingKit.framework */; };
-		6AD4E34117BEB5E800D3A326 /* GPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4E34017BEB5E800D3A326 /* GPU.m */; };
-		6AD4E34417BEB66E00D3A326 /* gpucalculate_kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4E34317BEB66E00D3A326 /* gpucalculate_kernel.cl */; };
-		6AD4E34717BEB6A500D3A326 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4E34617BEB6A500D3A326 /* OpenCL.framework */; };
-		6AD4E34D17BECC7B00D3A326 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A80D0E517BE3830005A464D /* SenTestingKit.framework */; };
-		6AD4E35317BECC7B00D3A326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD4E35117BECC7B00D3A326 /* InfoPlist.strings */; };
-		6AD4E35517BECC7B00D3A326 /* GPUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4E35417BECC7B00D3A326 /* GPUTests.m */; };
+		6A9484E6192EA5C6004299A6 /* APani.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9484E5192EA5C6004299A6 /* APani.m */; };
+		6AA01EAF192D463E00B696B9 /* Coevolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA01EAE192D463E00B696B9 /* Coevolution.m */; };
+		6AA01EB5192D72BE00B696B9 /* MersenneTwister.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA01EB4192D72BE00B696B9 /* MersenneTwister.m */; };
+		6AA01EBD192E3C8800B696B9 /* DE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA01EBC192E3C8800B696B9 /* DE.m */; };
+		6AADA986193235C2001B3EC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AADA985193235C2001B3EC2 /* XCTest.framework */; };
+		6AADA98C193235C2001B3EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AADA98A193235C2001B3EC2 /* InfoPlist.strings */; };
+		6AADA98E193235C2001B3EC2 /* SymbolicRegression_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AADA98D193235C2001B3EC2 /* SymbolicRegression_Tests.m */; };
+		6AADA99519323DDF001B3EC2 /* GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F46B117BBEEA500209467 /* GFS.m */; };
+		6AADA99619323DE8001B3EC2 /* MersenneTwister.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA01EB4192D72BE00B696B9 /* MersenneTwister.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6A5F46C417BBEF0500209467 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A5F467117BBEE7500209467 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A5F467817BBEE7500209467;
-			remoteInfo = SymbolicRegression;
-		};
-		6AD4E35717BECC7B00D3A326 /* PBXContainerItemProxy */ = {
+		6AADA990193235C2001B3EC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6A5F467117BBEE7500209467 /* Project object */;
 			proxyType = 1;
@@ -58,12 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A48674917BF862B001468B7 /* GFSFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSFunctions.h; sourceTree = "<group>"; };
-		6A48674A17BF862B001468B7 /* GFSFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSFunctions.m; sourceTree = "<group>"; };
-		6A592B3A17C1279900B6A2C5 /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
-		6A592B3B17C1279900B6A2C5 /* DataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSet.m; sourceTree = "<group>"; };
-		6A592B3C17C1279900B6A2C5 /* GA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GA.h; sourceTree = "<group>"; };
-		6A592B3D17C1279900B6A2C5 /* GA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GA.m; sourceTree = "<group>"; };
 		6A5F467917BBEE7500209467 /* SymbolicRegression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolicRegression.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5F467C17BBEE7500209467 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6A5F467F17BBEE7500209467 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -80,25 +53,21 @@
 		6A5F469417BBEE7500209467 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A5F46B017BBEEA500209467 /* GFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFS.h; sourceTree = "<group>"; };
 		6A5F46B117BBEEA500209467 /* GFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFS.m; sourceTree = "<group>"; };
-		6A5F46B817BBEF0500209467 /* GFSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5F46BD17BBEF0500209467 /* GFSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFSTests-Info.plist"; sourceTree = "<group>"; };
-		6A5F46BF17BBEF0500209467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6A5F46C117BBEF0500209467 /* GFSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFSTests.m; sourceTree = "<group>"; };
-		6A5F46C317BBEF0500209467 /* GFSTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GFSTests-Prefix.pch"; sourceTree = "<group>"; };
-		6A69871B17BF7B9900BE4CC3 /* GPUScheduller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUScheduller.h; sourceTree = "<group>"; };
-		6A69871C17BF7B9900BE4CC3 /* GPUScheduller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUScheduller.m; sourceTree = "<group>"; };
-		6A69872017BF7C0500BE4CC3 /* SOMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOMA.h; sourceTree = "<group>"; };
-		6A69872117BF7C0500BE4CC3 /* SOMA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOMA.m; sourceTree = "<group>"; };
 		6A80D0E517BE3830005A464D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6AD4E33F17BEB5E800D3A326 /* GPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPU.h; sourceTree = "<group>"; };
-		6AD4E34017BEB5E800D3A326 /* GPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPU.m; sourceTree = "<group>"; };
-		6AD4E34317BEB66E00D3A326 /* gpucalculate_kernel.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = gpucalculate_kernel.cl; sourceTree = "<group>"; };
-		6AD4E34617BEB6A500D3A326 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
-		6AD4E34C17BECC7B00D3A326 /* GPUTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AD4E35017BECC7B00D3A326 /* GPUTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUTests-Info.plist"; sourceTree = "<group>"; };
-		6AD4E35217BECC7B00D3A326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6AD4E35417BECC7B00D3A326 /* GPUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUTests.m; sourceTree = "<group>"; };
-		6AD4E35617BECC7B00D3A326 /* GPUTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPUTests-Prefix.pch"; sourceTree = "<group>"; };
+		6A9484E4192EA5C6004299A6 /* APani.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APani.h; sourceTree = "<group>"; };
+		6A9484E5192EA5C6004299A6 /* APani.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APani.m; sourceTree = "<group>"; };
+		6AA01EAD192D463E00B696B9 /* Coevolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coevolution.h; sourceTree = "<group>"; };
+		6AA01EAE192D463E00B696B9 /* Coevolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coevolution.m; sourceTree = "<group>"; };
+		6AA01EB3192D72BE00B696B9 /* MersenneTwister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MersenneTwister.h; sourceTree = "<group>"; };
+		6AA01EB4192D72BE00B696B9 /* MersenneTwister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MersenneTwister.m; sourceTree = "<group>"; };
+		6AA01EBB192E3C8800B696B9 /* DE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DE.h; sourceTree = "<group>"; };
+		6AA01EBC192E3C8800B696B9 /* DE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DE.m; sourceTree = "<group>"; };
+		6AADA984193235C2001B3EC2 /* SymbolicRegression Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SymbolicRegression Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AADA985193235C2001B3EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AADA989193235C2001B3EC2 /* SymbolicRegression Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SymbolicRegression Tests-Info.plist"; sourceTree = "<group>"; };
+		6AADA98B193235C2001B3EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AADA98D193235C2001B3EC2 /* SymbolicRegression_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolicRegression_Tests.m; sourceTree = "<group>"; };
+		6AADA98F193235C2001B3EC2 /* SymbolicRegression Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SymbolicRegression Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,20 +79,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5F46B517BBEF0500209467 /* Frameworks */ = {
+		6AADA981193235C2001B3EC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD4E34717BEB6A500D3A326 /* OpenCL.framework in Frameworks */,
-				6A80D0E617BE3830005A464D /* SenTestingKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AD4E34917BECC7B00D3A326 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AD4E34D17BECC7B00D3A326 /* SenTestingKit.framework in Frameworks */,
+				6AADA986193235C2001B3EC2 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,9 +93,8 @@
 		6A5F467017BBEE7500209467 = {
 			isa = PBXGroup;
 			children = (
+				6AADA987193235C2001B3EC2 /* SymbolicRegression Tests */,
 				6A5F468217BBEE7500209467 /* SymbolicRegression */,
-				6A5F46BB17BBEF0500209467 /* GFSTests */,
-				6AD4E34E17BECC7B00D3A326 /* GPUTests */,
 				6A5F467B17BBEE7500209467 /* Frameworks */,
 				6A5F467A17BBEE7500209467 /* Products */,
 			);
@@ -145,8 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				6A5F467917BBEE7500209467 /* SymbolicRegression.app */,
-				6A5F46B817BBEF0500209467 /* GFSTests.octest */,
-				6AD4E34C17BECC7B00D3A326 /* GPUTests.octest */,
+				6AADA984193235C2001B3EC2 /* SymbolicRegression Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +112,9 @@
 		6A5F467B17BBEE7500209467 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AD4E34617BEB6A500D3A326 /* OpenCL.framework */,
 				6A80D0E517BE3830005A464D /* SenTestingKit.framework */,
 				6A5F467C17BBEE7500209467 /* Cocoa.framework */,
+				6AADA985193235C2001B3EC2 /* XCTest.framework */,
 				6A5F467E17BBEE7500209467 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -175,10 +133,6 @@
 		6A5F468217BBEE7500209467 /* SymbolicRegression */ = {
 			isa = PBXGroup;
 			children = (
-				6A592B3A17C1279900B6A2C5 /* DataSet.h */,
-				6A592B3B17C1279900B6A2C5 /* DataSet.m */,
-				6A592B3C17C1279900B6A2C5 /* GA.h */,
-				6A592B3D17C1279900B6A2C5 /* GA.m */,
 				6A5F468E17BBEE7500209467 /* AppDelegate.h */,
 				6A5F468F17BBEE7500209467 /* AppDelegate.m */,
 				6A5F469117BBEE7500209467 /* MainMenu.xib */,
@@ -186,15 +140,14 @@
 				6A5F468317BBEE7500209467 /* Supporting Files */,
 				6A5F46B017BBEEA500209467 /* GFS.h */,
 				6A5F46B117BBEEA500209467 /* GFS.m */,
-				6AD4E33F17BEB5E800D3A326 /* GPU.h */,
-				6AD4E34017BEB5E800D3A326 /* GPU.m */,
-				6AD4E34317BEB66E00D3A326 /* gpucalculate_kernel.cl */,
-				6A69871B17BF7B9900BE4CC3 /* GPUScheduller.h */,
-				6A69871C17BF7B9900BE4CC3 /* GPUScheduller.m */,
-				6A69872017BF7C0500BE4CC3 /* SOMA.h */,
-				6A69872117BF7C0500BE4CC3 /* SOMA.m */,
-				6A48674917BF862B001468B7 /* GFSFunctions.h */,
-				6A48674A17BF862B001468B7 /* GFSFunctions.m */,
+				6AA01EAD192D463E00B696B9 /* Coevolution.h */,
+				6AA01EAE192D463E00B696B9 /* Coevolution.m */,
+				6AA01EB3192D72BE00B696B9 /* MersenneTwister.h */,
+				6AA01EB4192D72BE00B696B9 /* MersenneTwister.m */,
+				6AA01EBB192E3C8800B696B9 /* DE.h */,
+				6AA01EBC192E3C8800B696B9 /* DE.m */,
+				6A9484E4192EA5C6004299A6 /* APani.h */,
+				6A9484E5192EA5C6004299A6 /* APani.m */,
 			);
 			path = SymbolicRegression;
 			sourceTree = "<group>";
@@ -211,40 +164,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6A5F46BB17BBEF0500209467 /* GFSTests */ = {
+		6AADA987193235C2001B3EC2 /* SymbolicRegression Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6A5F46C117BBEF0500209467 /* GFSTests.m */,
-				6A5F46BC17BBEF0500209467 /* Supporting Files */,
+				6AADA98D193235C2001B3EC2 /* SymbolicRegression_Tests.m */,
+				6AADA988193235C2001B3EC2 /* Supporting Files */,
 			);
-			path = GFSTests;
+			path = "SymbolicRegression Tests";
 			sourceTree = "<group>";
 		};
-		6A5F46BC17BBEF0500209467 /* Supporting Files */ = {
+		6AADA988193235C2001B3EC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A5F46BD17BBEF0500209467 /* GFSTests-Info.plist */,
-				6A5F46BE17BBEF0500209467 /* InfoPlist.strings */,
-				6A5F46C317BBEF0500209467 /* GFSTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6AD4E34E17BECC7B00D3A326 /* GPUTests */ = {
-			isa = PBXGroup;
-			children = (
-				6AD4E35417BECC7B00D3A326 /* GPUTests.m */,
-				6AD4E34F17BECC7B00D3A326 /* Supporting Files */,
-			);
-			path = GPUTests;
-			sourceTree = "<group>";
-		};
-		6AD4E34F17BECC7B00D3A326 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6AD4E35017BECC7B00D3A326 /* GPUTests-Info.plist */,
-				6AD4E35117BECC7B00D3A326 /* InfoPlist.strings */,
-				6AD4E35617BECC7B00D3A326 /* GPUTests-Prefix.pch */,
+				6AADA989193235C2001B3EC2 /* SymbolicRegression Tests-Info.plist */,
+				6AADA98A193235C2001B3EC2 /* InfoPlist.strings */,
+				6AADA98F193235C2001B3EC2 /* SymbolicRegression Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -269,41 +203,23 @@
 			productReference = 6A5F467917BBEE7500209467 /* SymbolicRegression.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6A5F46B717BBEF0500209467 /* GFSTests */ = {
+		6AADA983193235C2001B3EC2 /* SymbolicRegression Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5F46C617BBEF0500209467 /* Build configuration list for PBXNativeTarget "GFSTests" */;
+			buildConfigurationList = 6AADA992193235C2001B3EC2 /* Build configuration list for PBXNativeTarget "SymbolicRegression Tests" */;
 			buildPhases = (
-				6A5F46B417BBEF0500209467 /* Sources */,
-				6A5F46B517BBEF0500209467 /* Frameworks */,
-				6A5F46B617BBEF0500209467 /* Resources */,
+				6AADA980193235C2001B3EC2 /* Sources */,
+				6AADA981193235C2001B3EC2 /* Frameworks */,
+				6AADA982193235C2001B3EC2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6A5F46C517BBEF0500209467 /* PBXTargetDependency */,
+				6AADA991193235C2001B3EC2 /* PBXTargetDependency */,
 			);
-			name = GFSTests;
-			productName = GFSTests;
-			productReference = 6A5F46B817BBEF0500209467 /* GFSTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6AD4E34B17BECC7B00D3A326 /* GPUTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AD4E35917BECC7B00D3A326 /* Build configuration list for PBXNativeTarget "GPUTests" */;
-			buildPhases = (
-				6AD4E34817BECC7B00D3A326 /* Sources */,
-				6AD4E34917BECC7B00D3A326 /* Frameworks */,
-				6AD4E34A17BECC7B00D3A326 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6AD4E35817BECC7B00D3A326 /* PBXTargetDependency */,
-			);
-			name = GPUTests;
-			productName = GPUTests;
-			productReference = 6AD4E34C17BECC7B00D3A326 /* GPUTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = "SymbolicRegression Tests";
+			productName = "SymbolicRegression Tests";
+			productReference = 6AADA984193235C2001B3EC2 /* SymbolicRegression Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -314,10 +230,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michal Cisarik";
 				TargetAttributes = {
-					6A5F46B717BBEF0500209467 = {
-						TestTargetID = 6A5F467817BBEE7500209467;
-					};
-					6AD4E34B17BECC7B00D3A326 = {
+					6AADA983193235C2001B3EC2 = {
 						TestTargetID = 6A5F467817BBEE7500209467;
 					};
 				};
@@ -336,8 +249,7 @@
 			projectRoot = "";
 			targets = (
 				6A5F467817BBEE7500209467 /* SymbolicRegression */,
-				6A5F46B717BBEF0500209467 /* GFSTests */,
-				6AD4E34B17BECC7B00D3A326 /* GPUTests */,
+				6AADA983193235C2001B3EC2 /* SymbolicRegression Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,19 +266,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5F46B617BBEF0500209467 /* Resources */ = {
+		6AADA982193235C2001B3EC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5F46C017BBEF0500209467 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AD4E34A17BECC7B00D3A326 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AD4E35317BECC7B00D3A326 /* InfoPlist.strings in Resources */,
+				6AADA98C193235C2001B3EC2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,56 +281,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD4E34117BEB5E800D3A326 /* GPU.m in Sources */,
-				6A69871D17BF7B9900BE4CC3 /* GPUScheduller.m in Sources */,
-				6A48674B17BF862B001468B7 /* GFSFunctions.m in Sources */,
-				6A592B4117C1279900B6A2C5 /* GA.m in Sources */,
 				6A5F46B217BBEEA500209467 /* GFS.m in Sources */,
+				6AA01EBD192E3C8800B696B9 /* DE.m in Sources */,
+				6AA01EB5192D72BE00B696B9 /* MersenneTwister.m in Sources */,
 				6A5F469017BBEE7500209467 /* AppDelegate.m in Sources */,
-				6A592B3E17C1279900B6A2C5 /* DataSet.m in Sources */,
+				6AA01EAF192D463E00B696B9 /* Coevolution.m in Sources */,
+				6A9484E6192EA5C6004299A6 /* APani.m in Sources */,
 				6A5F468917BBEE7500209467 /* main.m in Sources */,
-				6A69872217BF7C0500BE4CC3 /* SOMA.m in Sources */,
-				6AD4E34417BEB66E00D3A326 /* gpucalculate_kernel.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5F46B417BBEF0500209467 /* Sources */ = {
+		6AADA980193235C2001B3EC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A592B2F17C124FD00B6A2C5 /* GFS.h in Sources */,
-				6A5F46C217BBEF0500209467 /* GFSTests.m in Sources */,
-				6A592B3F17C1279900B6A2C5 /* DataSet.m in Sources */,
-				6A592B4217C1279900B6A2C5 /* GA.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AD4E34817BECC7B00D3A326 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A48674E17BF8DB2001468B7 /* gpucalculate_kernel.cl in Sources */,
-				6AD4E35517BECC7B00D3A326 /* GPUTests.m in Sources */,
-				6A592B4017C1279900B6A2C5 /* DataSet.m in Sources */,
-				6A69872417BF7C0500BE4CC3 /* SOMA.m in Sources */,
-				6A48674D17BF862B001468B7 /* GFSFunctions.m in Sources */,
-				6A69871F17BF7B9900BE4CC3 /* GPUScheduller.m in Sources */,
-				6A592B4317C1279900B6A2C5 /* GA.m in Sources */,
+				6AADA99619323DE8001B3EC2 /* MersenneTwister.m in Sources */,
+				6AADA99519323DDF001B3EC2 /* GFS.m in Sources */,
+				6AADA98E193235C2001B3EC2 /* SymbolicRegression_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6A5F46C517BBEF0500209467 /* PBXTargetDependency */ = {
+		6AADA991193235C2001B3EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6A5F467817BBEE7500209467 /* SymbolicRegression */;
-			targetProxy = 6A5F46C417BBEF0500209467 /* PBXContainerItemProxy */;
-		};
-		6AD4E35817BECC7B00D3A326 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6A5F467817BBEE7500209467 /* SymbolicRegression */;
-			targetProxy = 6AD4E35717BECC7B00D3A326 /* PBXContainerItemProxy */;
+			targetProxy = 6AADA990193235C2001B3EC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -455,18 +336,10 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		6A5F46BE17BBEF0500209467 /* InfoPlist.strings */ = {
+		6AADA98A193235C2001B3EC2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A5F46BF17BBEF0500209467 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6AD4E35117BECC7B00D3A326 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AD4E35217BECC7B00D3A326 /* en */,
+				6AADA98B193235C2001B3EC2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -570,81 +443,47 @@
 			};
 			name = Release;
 		};
-		6A5F46C717BBEF0500209467 /* Debug */ = {
+		6AADA993193235C2001B3EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SymbolicRegression.app/Contents/MacOS/SymbolicRegression";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
-					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GFSTests/GFSTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "SymbolicRegression Tests/SymbolicRegression Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GFSTests/GFSTests-Info.plist";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "SymbolicRegression Tests/SymbolicRegression Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6A5F46C817BBEF0500209467 /* Release */ = {
+		6AADA994193235C2001B3EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SymbolicRegression.app/Contents/MacOS/SymbolicRegression";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GFSTests/GFSTests-Prefix.pch";
-				INFOPLIST_FILE = "GFSTests/GFSTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-		6AD4E35A17BECC7B00D3A326 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SymbolicRegression.app/Contents/MacOS/SymbolicRegression";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPUTests/GPUTests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "GPUTests/GPUTests-Info.plist";
+				GCC_PREFIX_HEADER = "SymbolicRegression Tests/SymbolicRegression Tests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "SymbolicRegression Tests/SymbolicRegression Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		6AD4E35B17BECC7B00D3A326 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SymbolicRegression.app/Contents/MacOS/SymbolicRegression";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPUTests/GPUTests-Prefix.pch";
-				INFOPLIST_FILE = "GPUTests/GPUTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -669,23 +508,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A5F46C617BBEF0500209467 /* Build configuration list for PBXNativeTarget "GFSTests" */ = {
+		6AADA992193235C2001B3EC2 /* Build configuration list for PBXNativeTarget "SymbolicRegression Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5F46C717BBEF0500209467 /* Debug */,
-				6A5F46C817BBEF0500209467 /* Release */,
+				6AADA993193235C2001B3EC2 /* Debug */,
+				6AADA994193235C2001B3EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AD4E35917BECC7B00D3A326 /* Build configuration list for PBXNativeTarget "GPUTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AD4E35A17BECC7B00D3A326 /* Debug */,
-				6AD4E35B17BECC7B00D3A326 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
